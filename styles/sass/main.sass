@@ -82,5 +82,31 @@ body
 		background-size: cover
 		height: 400px
 		width: 400px
+		&:last-child
+			background-image: url(../../img/about_2.jpg)
+/* advantages */
+.advantages
+	padding: 60px 0
+	background-color: #F6F7FA
+	&-item
+		text-align: center
+		margin-bottom: 25px
+		&__title
+			font-size: 40px
+			font-weight: bold
+			margin: 8px 0
+			line-height: 1
+		&__txt
+			margin: 0
+			line-height: 1
+			font-size: 22px
+.advantages-grid
+	display: flex
+	flex-wrap: wrap
+	& > div
+		width: 33.3333333%
+
+.icon-wrap--advantages
+	height: 150px
 
 // @import "media" // Всегда в конце
